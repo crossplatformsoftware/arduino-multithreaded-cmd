@@ -2,7 +2,7 @@
 // ARDUINO MULTI-THREADED COMMAND INTERPRETER (TEMPLATE)
 // ---------------------------------------------------------------------------
 // Filename    : ArduinoThreadedCommandInterpreter.ino
-// Author      : UseLinuxNotWindows
+// Author      : crossplatformsoftware
 // Version     : 1.0.0
 // Target CPU  : AVR (Arduino FreeRTOS https://github.com/feilipu/avrfreertos)
 // Toolset     : Arduino IDE or Eclipse Sloeber (http://eclipse.baeyens.it/)
