@@ -8,7 +8,7 @@
 // Toolset     : Arduino IDE or Eclipse Sloeber (http://eclipse.baeyens.it/)
 // ---------------------------------------------------------------------------
 //
-// This code is designed as template for implementing a command pattern
+// This code is designed as a template for implementing a command pattern.
 // See "Gang of Four" "Command" https://en.wikipedia.org/wiki/Command_pattern
 //
 // The Arduino waits for commands (<ITEM>=<VALUE>[Return]) sent via Serial,
