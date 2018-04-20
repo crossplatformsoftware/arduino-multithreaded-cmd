@@ -431,7 +431,7 @@ void TaskSend(void *pvParameters) {
 
 	(void) pvParameters;
 
-	static uint8_t txBuffer[QUEUE_BUFFER_SIZE];  // Message from TaskRun
+	static char txBuffer[QUEUE_BUFFER_SIZE];  // Message from TaskRun
 
 	// TASK LOOP - never exits
 	for (;;) {
