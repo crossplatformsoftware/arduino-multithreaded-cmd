@@ -4,7 +4,7 @@
 // Filename    : ArduinoThreadedCommandInterpreter.h
 // Author      : crossplatformsoftware
 // Version     : 1.0.0
-// Target CPU  : ARM and AVR (supported by Arduino FreeRTOS)
+// Target CPU  : AVR (Arduino FreeRTOS https://github.com/feilipu/avrfreertos)
 // Toolset     : Arduino IDE or Eclipse Sloeber (http://eclipse.baeyens.it/)
 // ---------------------------------------------------------------------------
 // Needed to get around Sloeber bug
