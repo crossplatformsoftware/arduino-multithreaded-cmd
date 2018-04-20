@@ -18,7 +18,7 @@ to implement a multi-threaded (time-sliced) architecture to minimise latency.
                                |                                              |
     +--------+ [Incoming Text] +-------------+ [Command Queue ] +-------------+
     |        | >>>>>>>>>>>>>>> | TaskReceive | >>>>>>>>>>>>>>>> | TaskRun     |
-    | Client |   Serial Port   +-------------+                  | Command     |
+    | Client |   Serial Port   +-------------+ FreeRTOS Queues  | Command     |
     |        | <<<<<<<<<<<<<<< |  TaskSend   | <<<<<<<<<<<<<<<< | Interpreter |
     +--------+ [Outgoing Text] +-------------+ [Response Queue] +-------------+
                                |                                              |
